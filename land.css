@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header .logo {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .nav ul li {
+    margin-left: 20px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+.home {
+    background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home .btn {
+    background: #34a853;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home .btn:hover {
+    background: #2c8c42;
+}
+
+.features, .about, .contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.features .feature-box, .about, .contact {
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form Styles */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    background: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #155ab6;
+}
+
+/* Footer Styles */
+.footer {
+    background: #1a73e8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
